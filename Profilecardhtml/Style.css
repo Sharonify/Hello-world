@@ -1,0 +1,112 @@
+
+
+.container{
+    background-color: rgba(0, 179, 179, 0.8);
+    width: 55%;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    right: 300;
+    background-image: url("image/bg-pattern-top.svg");
+    background-repeat: no-repeat;
+    background-size: 640px 600px;
+    background-position:-250px -250px;
+}
+
+
+.card-container{
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    top: 110px;
+    left: 330px;
+    width: 29%;
+    height: 300px;
+    background-color: white;
+    box-shadow: tomato;
+
+}
+
+
+.bottom-image{
+    background-image: url("image/bg-pattern-bottom.svg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 740px 700px;
+    background-position: 400px 200px;
+}
+
+
+.header{
+    background-image: url("image/bg-pattern-card.svg");
+    height: 100px;
+    
+}
+
+.Picture{
+    
+    width: 25%;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+h3{
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+
+span{
+    color: thistle;
+    padding: 0px;
+}
+
+p{
+    padding: 0px;   
+    color: thistle;
+    padding-bottom: 15px;
+}
+
+hr{
+   color: gray;
+   
+}
+
+h4{
+    size: 30px;
+}
+
+.counter{
+    display: inline;
+    float: left;
+    padding-right: 20px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.footer{
+    position: absolute;
+    top: 225px;
+    padding: 5px;
+    left: 5px;
+}
+
+.feet{
+    position: absolute;
+    top: 40px;
+    padding: 5px;
+    right: 4px;
+
+}
+
+
+.pro{
+
+    display: inline;
+    float: left;
+    padding-right: 12px;
+    padding-left: 18px;
+    text-align: center;
+
+}
+

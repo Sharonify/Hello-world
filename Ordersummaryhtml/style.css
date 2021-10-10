@@ -1,0 +1,135 @@
+
+body{
+    margin: 0px;
+}
+
+.background{
+    background-image: url("image/pattern-background-desktop.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #e6f2ff;
+    height:100%;
+    width: 100%;
+
+}
+
+
+.container{
+    border-radius: 20px;
+    position: absolute;
+    top: 170px;
+    left: 620px;
+    height:530px;
+    width:20%;
+    background-color: white;
+
+}
+
+.hero{
+    background-image: url("image/illustration-hero.svg");
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.text{
+    text-align: center;
+   
+
+}
+
+span{
+
+    color: thistle;
+    line-height: 20px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+h2{
+    letter-spacing: 1px;
+
+}
+
+
+.plan{
+    
+    background-color: rgba(202, 220, 240, 0.4);
+    border-radius: 10px;
+    position: relative;
+    left: 23px;
+    height: 60px;
+    width: 260px;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+img{
+    margin-top: 8px;
+    display: inline;
+    float: left;
+}
+
+.annual{
+  
+    width: 150px;
+    position: absolute;
+    left: 70px;
+    line-height: 2px;
+
+}
+
+p{
+    color: gray;
+}
+
+
+.chng{
+    display: inline;
+    float: right;
+    margin-top: 15px;
+
+}
+
+
+.pay{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+button{
+    width: 90%;
+    max-width: 250px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    border: 0px;     
+
+}
+
+.payment :hover{
+    background-color: hsl(230, 2%, 52%);
+}
+
+button:last-child{
+    background-color: white;
+    color:black;
+}
+
+
